@@ -1,0 +1,55 @@
+body {
+    background-color: #141414;
+}
+
+.fonte-famlia {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.imagem-carrosel {
+    object-fit: cover;
+    object-position: 0 80%;
+}
+
+.altura-grid {
+    height: 450px;
+    max-height: auto;
+}
+
+.classe-coluna-texto {
+    background-color: #BEBABA;
+}
+
+.fonte-card {
+    font-family: Georgia, serif;
+}
+
+.card-imga {
+    width: 100%;
+    height: auto;
+}
+
+
+
+.altura-grideee {
+    object-fit: cover;
+    height: 800px;
+}
+
+.cor-preta {
+    color: #5c5a5a;
+}
+
+.fonte-texto {
+
+    font-size: 18px;
+}
+
+.fundo-card {
+    background-color: #141414;
+}
+
+.borda-cor-padrao {
+    border-color: #141414;
+}

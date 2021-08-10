@@ -1,0 +1,38 @@
+.imagem-carrosel {
+    object-fit: cover;
+    object-position: 0 80%;
+    height: 400px;
+}
+
+.produtos-body {
+    background-color: #141414;
+}
+
+.sem-borda {
+    border-color: #BEBABA;
+}
+
+.fundo-cor {
+    background-color: #e9e9e9;
+}
+
+.fonte-titulo {
+    font-family: 'Pacifico', cursive;
+}
+
+.fonte-famlia {
+    font-family: 'Raleway', sans-serif;
+
+}
+
+.fonte-card {
+    font-family: Georgia, serif;
+}
+
+.tamanho-card {
+    height: 700px;
+}
+.cor-formulario{
+    background-color: #CAC9C9;
+    border: #CAC9C9;
+  }

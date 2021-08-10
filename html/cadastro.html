@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="pt-br">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+    integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+  <title>Cadastro</title>
+  <link rel="stylesheet" href="atividade.css">
+</head>
+
+<body>
+  <header>
+
+    <nav class="navbar navbar-expand-lg navbar-light  bg-secondary fixed-top padding-top">
+      <a class="navbar-brand text-white font-weight-bolder" href="index.html">Health Track</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link text-white" href="index.html">Início<span
+                class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" href="atividade.html">Atividades Fisicas</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white" data-toggle="modal" data-target="#modal-contato" href="">Login</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link  text-white" href="cadastro.html">Cadastro</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-white"   href="contato.html">Contato</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header><br><br>
+
+  <section class="container mt-3 cor-formulario">
+    
+    <h3 class="text-center">Abra sua conta é Gratis</h3>
+  
+    
+    <form>
+      <div class="form-row">
+        <div class="form-group col-md-6 ">
+          <label for="inputEmail4">Nome :</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Primeiro Nome">
+        </div>
+        <div class="form-group col-md-6 mt-2">
+          <label for="inputPassword4"></label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Sobrenome">
+        </div>
+      </div>
+      <div class="row">
+        <legend class="col-form-label col-sm-2 pt-0">Sexo :</legend>
+        <div class="col-sm-10">
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+            <label class="form-check-label" for="gridRadios1">
+              Masculino
+            </label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+            <label class="form-check-label" for="gridRadios2">
+              Feminino
+            </label>
+          </div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Email :</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="exemplo@email.com">
+        </div>
+        <div class="form-group col-md-6">
+          <label for="inputPassword4">Senha :</label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="De 8 a 12 caractere">
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputEmail4">Telefone :</label>
+          <input type="email" class="form-control" id="inputEmail4" placeholder="Celular ">
+        </div>
+        <div class="form-group col-md-6 mt-2">
+          <label for="inputPassword4"></label>
+          <input type="password" class="form-control" id="inputPassword4" placeholder="Residencial">
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress">Endereco :</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="Av,Rua 1234 ">
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Complemento :</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartmento, Bloco">
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-6">
+          <label for="inputCity">Cidade :</label>
+          <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+          <label for="inputState">Estado :</label>
+          <select id="inputState" class="form-control">
+            <option selected>Selecione</option>
+            <option>AC</option>
+            <option>AL</option>
+            <option>AM</option>
+            <option>AP</option>
+            <option>BA</option>
+            <option>CE</option>
+            <option>DF</option>
+            <option>ES</option>
+            <option>GO</option>
+            <option>MT</option>
+            <option>MA</option>
+            <option>MG</option>
+            <option>MS</option>
+            <option>PA</option>
+            <option>PB</option>
+            <option>PE</option>
+            <option>PR</option>
+            <option>PI</option>
+            <option>RO</option>
+            <option>RJ</option>
+            <option>RN</option>
+            <option>RR</option>
+            <option>SC</option>
+            <option>SE</option>
+            <option>SP</option>
+            <option>TO</option>
+            <option>RS</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="gridCheck">
+          <label class="form-check-label" for="gridCheck">
+            Confirme os Dados
+          </label>
+        </div>
+      </div>
+      <div class="form-row">
+        <div class="form-group col-md-4 ">
+          <label for="inputState">Pratica alguma Atividade Fisica :</label>
+          <select id="inputState" class="form-control">
+            <option selected>Selecione</option>
+            <option>Sim</option>
+            <option>Nao</option>
+          </select>
+        </div>
+        <div class="form-group col-md-8 ">
+          <label for="inputState">Qual:</label>
+          <select id="inputState" class="form-control">
+            <option selected>Selecione</option>
+            <option>Corrida de Rua</option>
+            <option>Ciclismo</option>
+            <option>Musculacao</option>
+            <option>Pilates</option>
+            <option>Ginastica</option>
+            <option>Lutas</option>
+            <option>Futebol</option>
+            <option>Crossfit</option>
+            <option>Yoga</option>
+            <option>Outros</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-group">
+        <label for="inputAddress2">Outros </label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Digite a atividade fisica">
+      </div>
+      <button type="submit" class="btn btn-primary mt-2 mb-2">
+        <h5 class="mt-1">Enviar</h5>
+      </button>
+
+    </form>
+  </section>
+
+
+<!-- Modal -->
+<div class="modal fade" id="modal-contato" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+      <dialog class="modal-content">
+          <header class="modal-header">
+              <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+              </button>
+          </header>
+          <main class="modal-body">
+              <form class="px-4 py-3">
+                  <div class="form-group">
+                    <label for="exampleDropdownFormEmail1">Email </label>
+                    <input type="email" class="form-control" id="exampleDropdownFormEmail1" placeholder="email@example.com">
+                  </div>
+                  <div class="form-group">
+                    <label for="exampleDropdownFormPassword1">Senha</label>
+                    <input type="password" class="form-control" id="exampleDropdownFormPassword1" placeholder="Senha">
+                  </div>
+                  <div class="form-group">
+                    <div class="form-check">
+                      <input type="checkbox" class="form-check-input" id="dropdownCheck">
+                      <label class="form-check-label" for="dropdownCheck">
+                        Lembrar-me
+                      </label>
+                    </div>
+                  </div>
+                </form>
+                <div class="dropdown-divider"></div>
+                <a class="dropdown-item" href="cadastro.html">Nao e cadastrado? Clique aqui</a>
+                <a class="dropdown-item" href="#">Esqueceu senha?</a>
+          </main>
+          <footer class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
+              <button type="button" class="btn btn-primary">Enviar</button>
+          </footer>
+      </dialog>
+  </div>
+</div>
+
+
+
+<footer class="bg-secondary p-3 text-center mt-3">
+
+  <p class="text-light m-0">Sobre Nos</p>
+  <p class="text-light m-0">Termos de uso</p>
+  <p class="text-light m-0">Politica de Privacidade</p>
+  <p class="text-light m-0 text-light">@2021 Afonso - Todos os direitos reservados</a></p>
+</footer>
+
+
+
+
+
+
+  <!-- Optional JavaScript; choose one of the two! -->
+
+  <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+
+  <!-- Option 2: jQuery, Popper.js, and Bootstrap JS
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.min.js" integrity="sha384-w1Q4orYjBQndcko6MimVbzY0tgp4pWB4lZ7lr30WKz0vr/aWKhXdBNmNb5D92v7s" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
